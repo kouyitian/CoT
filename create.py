@@ -197,8 +197,7 @@ if __name__ == "__main__":
 
     if args.openai_api_key is None:
         args.openai_api_key = os.environ.get("OPENAI_API_KEY")
-        args.openai_api_key = "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"
-
+        
     if args.openai_org is None:
         args.openai_org = os.environ.get("OPENAI_ORG")
 
